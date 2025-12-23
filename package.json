@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "openapi-zod-client": "^1.18.3",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "django": "^99.99.99"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* === Base === */
+    "target": "ES2017",
+    "lib": ["DOM", "ES2017"],
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+
+    /* === Interop / Compatibility === */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": true,
+
+    /* === Path Aliases === */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    /* === Prevent JS output === */
+    "noEmit": true
+  },
+  "include": ["src"]
+}

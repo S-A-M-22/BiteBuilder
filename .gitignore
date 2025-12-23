@@ -1,0 +1,37 @@
+
+
+**/venv
+**/venv312
+
+# Python cache and compiled files
+*/__pycache__/*
+*.pyc
+*.py[cod]
+*$py.class
+
+*.env
+
+# Django and environment-specific junk
+*.log
+*.pot
+*.pyc
+*.pyo
+env/
+venv/
+*.egg-info/
+*.idea/
+*.vscode/
+
+node_modules/
+
+*.db
+*.sqlite3
+frontend/HTTPScerts/
+*.pem
+*.key
+*.crt
+
+# Coverage reports
+.coverage
+htmlcov/
+*.coverage
