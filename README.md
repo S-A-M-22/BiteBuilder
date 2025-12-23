@@ -3,7 +3,11 @@
 
 # BiteBuilder — Full-Stack Nutrition Platform
 
-A full-stack nutrition and meal-tracking platform built with **Django (Python)** and **React + Vite (TypeScript)**.
+BiteBuilder is a full-stack nutrition and meal-tracking web application built with Django (Python) for the backend and React + Vite (TypeScript) for the frontend.
+
+This project was developed collaboratively as part of a university group assignment and deployed on an AWS EC2 instance.
+
+💻 A demonstration video showcasing the fully functional application is available [here](https://github.com/S-A-M-22/BiteBuilder/blob/main/BiteBuilder%20App%20Demo%20Video.mp4).
 
 This guide explains how to set up, run, and troubleshoot both the backend and frontend locally.
 
