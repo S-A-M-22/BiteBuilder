@@ -20,10 +20,10 @@ Ensure you have:
 You must also have:
 
 ```
-Fri-16-19-05\BiteBuilderApp\.env
+BiteBuilder\BiteBuilderApp\.env
 ```
 
-For environment variables, contact **Elvis Nguyen** at [engu9651@uni.sydney.edu.au](mailto:engu9651@uni.sydney.edu.au).
+For environment variables, contact **redacted** at [redacted].
 
 ---
 
