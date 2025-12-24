@@ -1,19 +1,19 @@
 
 ---
 
-# BiteBuilder — Full-Stack Nutrition Platform
+# 🌱BiteBuilder — Full-Stack Nutrition Platform
 
 BiteBuilder is a full-stack nutrition and meal-tracking web application built with Django (Python) for the backend and React + Vite (TypeScript) for the frontend.
 
 This project was developed collaboratively as part of a university group assignment and deployed on an AWS EC2 instance.
 
-💻 A demonstration video showcasing the fully functional application is available [here](https://github.com/S-A-M-22/BiteBuilder/blob/main/BiteBuilder%20App%20Demo%20Video.mp4) to download.
+A demonstration video showcasing the fully functional application is available [here](https://github.com/S-A-M-22/BiteBuilder/blob/main/BiteBuilder%20App%20Demo%20Video.mp4) to download.
 
 This guide explains how to set up, run, and troubleshoot both the backend and frontend locally.
 
----
+<br>
 
-## Prerequisites
+## 📦Prerequisites
 
 Ensure you have:
 
@@ -29,9 +29,9 @@ BiteBuilder\BiteBuilderApp\.env
 
 For environment variables, contact **redacted** at [redacted].
 
----
+<br>
 
-## 1. Backend Setup — Django API Server
+## 🚀1. Backend Setup — Django API Server
 
 ### Create and Activate a Virtual Environment
 
@@ -101,9 +101,9 @@ Then return to the root directory:
 cd ..
 ```
 
----
+<br>
 
-## 2. Frontend Setup — React + Vite
+## 🚀2. Frontend Setup — React + Vite
 
 Navigate to the frontend directory:
 
@@ -142,9 +142,9 @@ mkcert -install
 mkcert localhost 127.0.0.1 ::1
 ```
 
----
+<br>
 
-## 3. Run Both Servers (Frontend + Backend)
+## 🌐3. Run Both Servers (Frontend + Backend)
 
 Start both Django and Vite concurrently:
 
@@ -166,9 +166,9 @@ proxy: {
 }
 ```
 
----
+<br>
 
-## 4. Common Commands
+## ▶️4. Common Commands
 
 | Command                | Description                   |
 | ---------------------- | ----------------------------- |
@@ -178,9 +178,9 @@ proxy: {
 | `npm run preview`      | Preview production build      |
 | `npm run lint`         | Run ESLint checks             |
 
----
+<br>
 
-## 5. Troubleshooting and Notes
+## 🛠5. Troubleshooting and Notes
 
 ### CORS
 
@@ -218,9 +218,9 @@ If activation fails:
 chmod +x venv/bin/activate
 ```
 
----
+<br>
 
-## 6. Quick Startup Summary
+## 📝6. Quick Startup Summary
 
 ```bash
 cd BiteBuilderApp
@@ -236,9 +236,9 @@ npm install
 npm run dev
 ```
 
----
+<br>
 
-## 7. Stack Overview
+## 💻7. Stack Overview
 
 | Layer      | Technology                     | Purpose                              |
 | ---------- | ------------------------------ | ------------------------------------ |
@@ -249,9 +249,9 @@ npm run dev
 | Database   | PostgreSQL (via Django ORM)    | Persistent data storage              |
 | Auth       | Supabase / JWT                 | Secure user sessions                 |
 
----
+<br>
 
-## 8. Database and Migration Reset (Local Development Only)
+## ℹ️8. Database and Migration Reset (Local Development Only ⚠️)
 
 Use this when migrations break or the schema changes heavily.
 
